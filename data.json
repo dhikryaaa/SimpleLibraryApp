@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "The Go Programming Language",
+    "author": "Dhika"
+  },
+  {
+    "id": "2",
+    "title": "Clean Architecture",
+    "author": "Pak Dosen"
+  },
+  {
+    "id": "3",
+    "title": "Framework Programming (2nd Edition)",
+    "author": "Admin Lab"
+  },
+  {
+    "id": "4",
+    "title": "Framework Programming",
+    "author": "Admin Lab"
+  }
+]

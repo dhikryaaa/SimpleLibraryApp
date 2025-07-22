@@ -61,10 +61,10 @@ func (r *FileBookRepository) Create(book entity.Book) error {
 	return r.writeToFile(books)
 }
 
-func (r *FileBookRepository) Update(book entity.Book) error {
+func (r *FileBookRepository) Update(id string, book entity.Book) error {
 	books, _ := r.readFromFile()
 	for i, b := range books {
-		if b.ID == book.ID {
+		if b.ID == id {
 			books[i] = book
 			return r.writeToFile(books)
 		}
